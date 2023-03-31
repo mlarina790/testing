@@ -1,0 +1,99 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .section-valid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .section-valid__cards {
+    margin: 20px auto 5px;
+}
+
+  .section-valid__input-block {
+    margin: 0 auto 10px;
+  }
+
+  .cards-list {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+  }
+
+  .card {
+    margin: 2px;
+    width: 40px;
+    height: 25px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 40px;
+    opacity: 0.3;
+  }
+
+  .mir {
+    background-image: url(../img/mir.png);
+  }
+
+  .jsb {
+    background-image: url(../img/jcb.png);
+  }
+
+  .amex {
+    background-image: url(../img/amex.png);
+  }
+
+  .visa {
+    background-image: url(../img/visa.png);
+  }
+
+  .maestro {
+    background-image: url(../img/maestro.png);
+  }
+
+  .master {
+    background-image: url(../img/master.png);
+  }
+
+  .discover {
+    background-image: url(../img/discover.png);
+  }
+
+  .active {
+    opacity: 1;
+  }
+
+  .input-valid {
+    width: 188px;
+    padding: 5px;
+    margin-left: 5px;
+    border: 1px #000000 solid;
+    border-radius: 4px;
+  }
+
+  .valid {
+    background-color: #a1e8a1;
+  }
+
+  .invalid {
+    background-color: #e8a1a1;
+  }
+
+  .input-valid-button {
+    background-color: #659a65;
+    padding: 5px;
+    margin-left: 2px;
+    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+  }
+  
